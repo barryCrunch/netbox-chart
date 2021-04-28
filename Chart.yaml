@@ -9,12 +9,3 @@ maintainers:
 - name: Chris Boot
   email: bootc@boo.tc
   url: https://github.com/bootc
-dependencies:
-- name: postgresql
-  version: 10.x.x
-  repository: https://charts.bitnami.com/bitnami
-  condition: postgresql.enabled
-- name: redis
-  version: 12.x.x
-  repository: https://charts.bitnami.com/bitnami
-  condition: redis.enabled
